@@ -2,23 +2,18 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
     :root {
-        --red: #e52e4d;
-        --blue: #5429cc;
-        --green: #33cc95;
-
-        --blue-light: #6933ff;
-
-        --text-title: #363f5f;
-        --text-body: #969cb3;
-
-        --background: #f0f2f5;
-        --shape: #ffffff;
+        --main: #2D7DD2;
+        --black: #2C3333;
+        --dark-grey: #395B64;
+        --light-grey: #A5C9CA;
+        --white: #E7F6F2;      
     }
 
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        font-family: 'Lato', sans-serif;
     }
 
     body, input, textarea, button {
