@@ -1,17 +1,16 @@
 import type { NextPage } from "next";
-import styled from "styled-components";
+import Header from "../components/Header";
+
+import { Container } from "../styles/home";
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <P>Hello World!</P>
-    </div>
+    <Container>
+      <div>
+        <Header />
+      </div>
+    </Container>
   );
 };
-
-const P = styled.p`
-  color: var(--shape);
-  font-size: 4rem;
-`;
 
 export default Home;
