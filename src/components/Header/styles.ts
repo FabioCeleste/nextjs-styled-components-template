@@ -4,7 +4,7 @@ export const Container = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 0;
+  height: 6.5vh;
 
   h1 {
     font-size: 2rem;
@@ -14,6 +14,7 @@ export const Container = styled.header`
     display: flex;
   }
 `;
+
 export const Navigator = styled.nav`
   ul {
     display: flex;

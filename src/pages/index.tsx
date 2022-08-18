@@ -1,14 +1,18 @@
 import type { NextPage } from "next";
 import Header from "../components/Header";
+import Main from "../components/Main";
 
-import { Container } from "../styles/home";
+import { Container, Divider, ContainerWrapper } from "../styles/home";
 
 const Home: NextPage = () => {
   return (
     <Container>
-      <div>
+      <ContainerWrapper>
         <Header />
-      </div>
+        <Divider />
+        <Main />
+        <Divider />
+      </ContainerWrapper>
     </Container>
   );
 };
